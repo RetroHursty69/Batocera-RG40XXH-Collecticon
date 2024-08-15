@@ -1,0 +1,78 @@
+15<theme>
+	<formatVersion>7</formatVersion>
+	<include>./../theme.xml</include>
+
+	<view name="system, basic, detailed, video, gamecarousel, grid">
+		<image name="logo">
+			<path>./_inc/system.png</path>
+            <pos>1.5 0.63</pos>			
+		</image>
+	</view>
+
+	<view name="detailed, video, gamecarousel, grid">
+      <image name="logo5" extra="true">
+         <origin>0 0</origin>      
+         <pos>1.5 0.63</pos>
+         <path>./_inc/system.png</path>
+         <zIndex>5</zIndex>
+         <maxSize>0.3 0.35</maxSize>
+			<storyboard>
+				<animation property="opacity" from="0" to="0" duration="50" mode="Linear"/>
+				<animation property="opacity" from="0" to="1" begin="1500" duration="500" mode="Linear"/>
+				<animation property="x" from="1.5" to="0.835" begin="1500" duration="500" mode="Linear"/>	
+			</storyboard>           
+      </image>
+      <image name="logo3" extra="true">
+         <origin>0 0</origin>      
+         <pos>0 0</pos>
+         <path>./_inc/logo.png</path>
+         <zIndex>5</zIndex>
+         <maxSize>1 1 </maxSize>
+			<storyboard>
+				<animation property="opacity" from="0" to="0" duration="50" mode="Linear"/>
+				<animation property="opacity" from="0" to="1" begin="250" duration="250" mode="Linear"/>	
+			</storyboard>           
+      </image>    
+      
+	</view>
+	
+   <view name="basic">
+      <image name="logo3" extra="true">
+         <origin>0 0</origin>      
+         <pos>0 0</pos>
+         <path>./_inc/logo.png</path>
+         <zIndex>5</zIndex>
+         <maxSize>1 1 </maxSize>
+			<storyboard>
+				<animation property="opacity" from="0" to="0" duration="50" mode="Linear"/>
+				<animation property="opacity" from="0" to="1" begin="250" duration="250" mode="Linear"/>	
+			</storyboard>           
+      </image>
+      <image name="logo4" extra="true">
+         <origin>0 0</origin>      
+         <pos>-0.5 0.63</pos>
+         <path>./_inc/system.png</path>
+         <zIndex>5</zIndex>
+         <maxSize>0.3 0.35</maxSize>
+			<storyboard>
+				<animation property="opacity" from="0" to="0" duration="50" mode="Linear"/>
+				<animation property="opacity" from="0" to="1" begin="1500" duration="500" mode="Linear"/>
+				<animation property="x" from="-0.5" to="0.015" begin="1500" duration="500" mode="Linear"/>	
+			</storyboard>           
+      </image> 
+
+      <image name="logo5" extra="true">
+         <origin>0 0</origin>      
+         <pos>1.5 0.63</pos>
+         <path>./_inc/system.png</path>
+         <zIndex>5</zIndex>
+         <maxSize>0.3 0.35</maxSize>
+			<storyboard>
+				<animation property="opacity" from="0" to="0" duration="50" mode="Linear"/>
+				<animation property="opacity" from="0" to="1" begin="1500" duration="500" mode="Linear"/>
+				<animation property="x" from="1.5" to="0.835" begin="1500" duration="500" mode="Linear"/>	
+			</storyboard>           
+      </image>                                      
+   </view> 	
+	
+</theme>
